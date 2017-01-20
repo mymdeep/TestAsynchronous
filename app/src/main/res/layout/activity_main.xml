@@ -25,27 +25,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/main_exectorframework"
-        android:onClick="onClick"
-        android:text="Executor Framework" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:id="@+id/main_asynctask"
         android:onClick="onClick"
         android:text="AsyncTask" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/main_loader"
-        android:onClick="onClick"
-        android:text="Loader" />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/main_asyncquery"
-        android:onClick="onClick"
-        android:text="AsyncQueryHandler" />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

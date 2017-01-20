@@ -21,14 +21,14 @@
         </activity>
         <activity android:name=".IntentServiceActivity">
         </activity>
-        <activity android:name=".AsyncQueryActivity">
-        </activity>
         <activity android:name=".AsyncTaskActivity">
         </activity>
         <activity android:name=".ExecutorFrameworkActivity">
         </activity>
-        <activity android:name=".LoaderActivity">
-        </activity>
-    </application>
+        <service android:name=".MyIntentService">
+        </service>
 
+    </application>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
 </manifest>
