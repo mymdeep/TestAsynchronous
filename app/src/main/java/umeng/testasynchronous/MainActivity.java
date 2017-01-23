@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent_handlerthread);
                 break;
 
-                break;
+
             case  R.id.main_asynctask:
                 Intent intent_asynctask = new Intent(MainActivity.this,AsyncTaskActivity.class);
                 startActivity(intent_asynctask);
